@@ -1,0 +1,48 @@
+html {
+    min-height: 100%;
+    margin:0;
+    }
+
+header {
+	background-color: black; 
+	padding: 1px;
+	border: 0px;
+	}	
+	
+body {
+    height: 100%;
+    margin:0;
+    background-color: cornflowerblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(purple 30%, mediumblue);
+    text-align:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:whitesmoke;
+    font: large "Comic Sans MS", cursive, sans-serif;
+    }
+nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: black;
+		}	
+	
+	nav li {
+		display: inline-block;
+		width: 150px;
+		}	
+	
+		
+	nav li a {
+		display: block;
+		padding: 8px;
+		color: white;
+		text-decoration: none;
+		}	
+		
+	nav li a:hover {
+		background-color: #555;
+		color: white;
+		}	
+	
